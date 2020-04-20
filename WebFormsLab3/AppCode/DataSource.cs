@@ -37,6 +37,9 @@ namespace WebFormsLab3.AppCode
             List<ProductKMA> products = new List<ProductKMA> { };
             products.Add(product1);
             products.Add(product2);
+            products.Add(product3);
+            products.Add(product4);
+            products.Add(product5);
             return products;
 
         }
