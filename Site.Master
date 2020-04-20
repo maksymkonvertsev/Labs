@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebFormsLab3.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head runat="server">
+    <style type="text/css">
+        table
+        {
+            display: table;
+            border-style : solid;
+            border-spacing : 0px;
+            
+        }
+        th, td 
+        {
+         border: 1px solid black;
+        }
+        table, td
+        {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Laboratorna robota №3</title>
+
+    
+   
+    </head>
+<body>
+    
+            
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                
+            </footer>
+        </div>
+
+   
+</body>
+</html>
