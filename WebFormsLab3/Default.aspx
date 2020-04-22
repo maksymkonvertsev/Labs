@@ -5,19 +5,19 @@
 
     <asp:Repeater ID="ProductsList" runat="server" OnItemDataBound="ProductsList_ItemDataBound">
         <HeaderTemplate>
-            <table> 
+            <table id="products"> 
                 <tr>
-                    <td>N п/п</td>
-                    <td>Назва виробу</td>
-                    <td colspan="2">Вартість, тис.грн.</td>
-                    <td>Виконання плану, %</td>
+                    <th>N п/п</th>
+                    <th>Назва виробу</th>
+                    <th colspan="2">Вартість, тис.грн.</th>
+                    <th>Виконання плану, %</th>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td>План</td>
-                    <td>Звіт</td>
-                    <td></td>
+                    <th></th>
+                    <th></th>
+                    <th>План</th>
+                    <th>Звіт</th>
+                    <th></th>
                 </tr>
                 <tr>
                     <td>1</td>
